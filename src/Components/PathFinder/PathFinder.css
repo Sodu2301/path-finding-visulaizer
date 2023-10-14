@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  display: table;
+  margin: 20px auto 20px auto;
+  border-collapse: collapse;
+  width: 97%;
+}
+
+#instructions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:50px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#instructions p {
+  color: #33485E;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#instructions span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 450px) {
+  table {
+    margin: 30px auto 20px auto;
+  }
+
+  #instructions p {
+    font-size: 8px;
+  }
+}
